@@ -1,0 +1,158 @@
+[debug] [2022-05-27T07:04:05.880Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T07:04:05.882Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-05-27T07:04:05.882Z] CLI Version:   10.1.2
+[debug] [2022-05-27T07:04:05.882Z] Platform:      linux
+[debug] [2022-05-27T07:04:05.882Z] Node Version:  v14.19.3
+[debug] [2022-05-27T07:04:05.882Z] Time:          Fri May 27 2022 12:34:05 GMT+0530 (India Standard Time)
+[debug] [2022-05-27T07:04:05.882Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T07:04:05.934Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T07:04:05.934Z] > authorizing via signed-in user (naradomkar2120@gmail.com)
+[debug] [2022-05-27T07:04:05.935Z] [iam] checking project tesla-clone-70677 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-27T07:04:05.937Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-27T07:04:05.937Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:04:57.780Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T07:04:57.782Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-05-27T07:04:57.782Z] CLI Version:   10.1.2
+[debug] [2022-05-27T07:04:57.782Z] Platform:      linux
+[debug] [2022-05-27T07:04:57.782Z] Node Version:  v14.19.3
+[debug] [2022-05-27T07:04:57.782Z] Time:          Fri May 27 2022 12:34:57 GMT+0530 (India Standard Time)
+[debug] [2022-05-27T07:04:57.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T07:04:57.829Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T07:04:57.829Z] > authorizing via signed-in user (naradomkar2120@gmail.com)
+[debug] [2022-05-27T07:04:57.829Z] [iam] checking project tesla-clone-70677 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-27T07:04:57.830Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-27T07:04:57.830Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:04:58.604Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Fri, 27 May 2022 07:04:58 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:04:58.618Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tesla-clone-70677:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-27T07:05:00.748Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 27 May 2022 07:05:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1309","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:05:00.751Z] > refreshing access token with scopes: []
+[debug] [2022-05-27T07:05:00.751Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:05:39.410Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T07:05:39.412Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2022-05-27T07:05:39.412Z] CLI Version:   10.1.2
+[debug] [2022-05-27T07:05:39.412Z] Platform:      linux
+[debug] [2022-05-27T07:05:39.412Z] Node Version:  v14.19.3
+[debug] [2022-05-27T07:05:39.412Z] Time:          Fri May 27 2022 12:35:39 GMT+0530 (India Standard Time)
+[debug] [2022-05-27T07:05:39.412Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T07:05:39.462Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T07:05:39.462Z] > authorizing via signed-in user (naradomkar2120@gmail.com)
+[debug] [2022-05-27T07:05:39.462Z] [iam] checking project tesla-clone-70677 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-27T07:05:39.464Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tesla-clone-70677:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-27T07:05:41.319Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 27 May 2022 07:05:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1335","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:05:41.320Z] > refreshing access token with scopes: []
+[debug] [2022-05-27T07:05:41.321Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:05:41.799Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 27 May 2022 07:05:41 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:05:41.816Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tesla-clone-70677 [none]
+[debug] [2022-05-27T07:05:42.943Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tesla-clone-70677 200
+[debug] [2022-05-27T07:05:42.944Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tesla-clone-70677 {"projectId":"tesla-clone-70677","projectNumber":"525285422949","displayName":"tesla-clone","name":"projects/tesla-clone-70677","resources":{"hostingSite":"tesla-clone-70677"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'tesla-clone-70677'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-05-27T07:05:42.952Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-27T07:05:42.953Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:05:43.686Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 27 May 2022 07:05:43 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:05:43.698Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-05-27T07:05:50.144Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 27 May 2022 07:05:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[tesla-clone-70677]: beginning deploy... 
+[info] i  hosting[tesla-clone-70677]: found 30 files in build 
+[debug] [2022-05-27T07:05:50.172Z] > refreshing access token with scopes: []
+[debug] [2022-05-27T07:05:50.173Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:05:50.175Z] [hosting] hash cache [YnVpbGQ] stored for 30 files
+[debug] [2022-05-27T07:05:50.175Z] [hosting][hash queue][FINAL] {"max":2,"min":0,"avg":0,"active":0,"complete":30,"success":30,"errored":0,"retried":0,"total":30,"elapsed":5}
+[debug] [2022-05-27T07:05:51.123Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 27 May 2022 07:05:50 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:05:51.134Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles [none]
+[debug] [2022-05-27T07:05:51.135Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles {"files":{"/asset-manifest.json":"637f374db4d49d9289810805452f0976f7e84b435121579c745bba80f0e966e8","/favicon.ico":"c599b7a91ab3627e3538125d9f40adc2d4bf949046984262670545dc7738af06","/index.html":"676916dbd1da0cc92c24c9f99a851dbb00b51f044fa9da4c9776f369ebd8c61b","/logo192.png":"76c449ccb9cd117c2f2338f091b18f7050f3210e249b2228f5c81b23f34377cd","/logo512.png":"7779210d56c1f3741e2e487799fe3092def4fa6ac450a60532b807c3a8971205","/manifest.json":"0958a5e0c831126100c8c2d06a6bbaa665a3900f21aaff4130238a6f5a113aa1","/robots.txt":"2544ca049f223a42bff01f72ad930a5edba75bbb7199d0f8430a02ff5aca16ec","/images/accessories.jpg":"16213c3272e7f7a46bcf2a3c98e0de366603a594c44925eddd6df6be17a28b2c","/images/audio.jpg":"fdb84360985cd1a6dadfb20a2b7a98db80330ac6e1a00b9f40ba45ed7fee0391","/images/connected.jpg":"58ec3c80511b2d3853f640e0d831428ff63fb85236837cedec19d8a6305b9437","/images/down-arrow.svg":"c63c019c26a7c3a8481abfb9a575a48f3fd1cfdec65fc4b968474122eaf040bd","/images/favicon.ico":"0fcf1f4d65c7062f3958f3f7db11302f789a88ba92a83e81403dc6e423e4a102","/images/game.jpg":"e1a70bbc440d453618f936af81d0668d411fcae8911c504d8013b2ec79e8db40","/images/logo.svg":"a6a04ded085923f13419f4193bae796d72139c546d4a1fbe810124969517c0b5","/images/model-3.jpg":"455253f4d27bc3ee0bcbbe1f3f6698e18ff7e1ed4f92ec17eddbed694ce206c7","/images/model-s.jpg":"af208a247ea45e1c9bbd45cc61637a907f14b2802a401f49ab45bc74c80f5db6","/images/model-x.jpg":"ab024d612ba2d0ceecae0997a5fec9b8838c4ad1a1f87b8eb40e0eb8157db0b1","/images/model-y.jpg":"e801252a10bd2367bc957c68ba4c3f9e648a3b5cdeda945333df95fe08f90259","/images/new-interior.jpg":"cfb1b3758dbb55b7a4e845da589e6919373ca0703b83a01edd06e0d7341b3fa7","/images/solar-panel.jpg":"71d38835802b1a5991b1c8cbe4d5731ce0108a7393e7a8523719199d7a464c2e","/images/solar-roof.jpg":"ec0989fead61df2e6165921b81b529e3d65f1131f94f40e3c7ea90abb5228949","/static/css/main.25bb52ee.chunk.css":"30003433190226a880a78330c1aa099e1e8f60177710552a21c0354c2244ec65","/static/css/main.25bb52ee.chunk.css.map":"523a0764d9b591715720de79474f5ad161e8993765700342b973bce70fdcb230","/static/js/2.b4f2b8d3.chunk.js":"a31090ba94d75a56be7c6a28596fdc8c867f6118e0957bead36d8293cc7c4759","/static/js/2.b4f2b8d3.chunk.js.LICENSE.txt":"1b58e6df1aa4de361cd5d09ebcbd08eb1facbcfbff42b1b4338a3128c7507779","/static/js/2.b4f2b8d3.chunk.js.map":"e58651c3ea533aa61a51e56e5426a399700ee917c4d38872ac21279a94247d15","/static/js/main.2c17c856.chunk.js":"a5883eb7fd58754c365c27dbc471b7ac0934842de34bfea598bd7b2b67fe615c","/static/js/main.2c17c856.chunk.js.map":"26b1ec2333507e844b06836cbe6c2dcda8867921e0904470a4a03c8c65e8803b","/static/js/runtime-main.26695fbc.js":"2dc01347b7d545aee8d1a2b90a678e88fe0de128038d296a11882eeb78967946","/static/js/runtime-main.26695fbc.js.map":"0c33e5583a2e7c08d91dc4dbba0a6232f8912df0dade39f04e4ff2166608f10a"}}
+[debug] [2022-05-27T07:08:02.725Z] [populateQueue] Retrying task index 0
+[debug] [2022-05-27T07:08:02.726Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles [none]
+[debug] [2022-05-27T07:08:02.726Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles {"files":{"/asset-manifest.json":"637f374db4d49d9289810805452f0976f7e84b435121579c745bba80f0e966e8","/favicon.ico":"c599b7a91ab3627e3538125d9f40adc2d4bf949046984262670545dc7738af06","/index.html":"676916dbd1da0cc92c24c9f99a851dbb00b51f044fa9da4c9776f369ebd8c61b","/logo192.png":"76c449ccb9cd117c2f2338f091b18f7050f3210e249b2228f5c81b23f34377cd","/logo512.png":"7779210d56c1f3741e2e487799fe3092def4fa6ac450a60532b807c3a8971205","/manifest.json":"0958a5e0c831126100c8c2d06a6bbaa665a3900f21aaff4130238a6f5a113aa1","/robots.txt":"2544ca049f223a42bff01f72ad930a5edba75bbb7199d0f8430a02ff5aca16ec","/images/accessories.jpg":"16213c3272e7f7a46bcf2a3c98e0de366603a594c44925eddd6df6be17a28b2c","/images/audio.jpg":"fdb84360985cd1a6dadfb20a2b7a98db80330ac6e1a00b9f40ba45ed7fee0391","/images/connected.jpg":"58ec3c80511b2d3853f640e0d831428ff63fb85236837cedec19d8a6305b9437","/images/down-arrow.svg":"c63c019c26a7c3a8481abfb9a575a48f3fd1cfdec65fc4b968474122eaf040bd","/images/favicon.ico":"0fcf1f4d65c7062f3958f3f7db11302f789a88ba92a83e81403dc6e423e4a102","/images/game.jpg":"e1a70bbc440d453618f936af81d0668d411fcae8911c504d8013b2ec79e8db40","/images/logo.svg":"a6a04ded085923f13419f4193bae796d72139c546d4a1fbe810124969517c0b5","/images/model-3.jpg":"455253f4d27bc3ee0bcbbe1f3f6698e18ff7e1ed4f92ec17eddbed694ce206c7","/images/model-s.jpg":"af208a247ea45e1c9bbd45cc61637a907f14b2802a401f49ab45bc74c80f5db6","/images/model-x.jpg":"ab024d612ba2d0ceecae0997a5fec9b8838c4ad1a1f87b8eb40e0eb8157db0b1","/images/model-y.jpg":"e801252a10bd2367bc957c68ba4c3f9e648a3b5cdeda945333df95fe08f90259","/images/new-interior.jpg":"cfb1b3758dbb55b7a4e845da589e6919373ca0703b83a01edd06e0d7341b3fa7","/images/solar-panel.jpg":"71d38835802b1a5991b1c8cbe4d5731ce0108a7393e7a8523719199d7a464c2e","/images/solar-roof.jpg":"ec0989fead61df2e6165921b81b529e3d65f1131f94f40e3c7ea90abb5228949","/static/css/main.25bb52ee.chunk.css":"30003433190226a880a78330c1aa099e1e8f60177710552a21c0354c2244ec65","/static/css/main.25bb52ee.chunk.css.map":"523a0764d9b591715720de79474f5ad161e8993765700342b973bce70fdcb230","/static/js/2.b4f2b8d3.chunk.js":"a31090ba94d75a56be7c6a28596fdc8c867f6118e0957bead36d8293cc7c4759","/static/js/2.b4f2b8d3.chunk.js.LICENSE.txt":"1b58e6df1aa4de361cd5d09ebcbd08eb1facbcfbff42b1b4338a3128c7507779","/static/js/2.b4f2b8d3.chunk.js.map":"e58651c3ea533aa61a51e56e5426a399700ee917c4d38872ac21279a94247d15","/static/js/main.2c17c856.chunk.js":"a5883eb7fd58754c365c27dbc471b7ac0934842de34bfea598bd7b2b67fe615c","/static/js/main.2c17c856.chunk.js.map":"26b1ec2333507e844b06836cbe6c2dcda8867921e0904470a4a03c8c65e8803b","/static/js/runtime-main.26695fbc.js":"2dc01347b7d545aee8d1a2b90a678e88fe0de128038d296a11882eeb78967946","/static/js/runtime-main.26695fbc.js.map":"0c33e5583a2e7c08d91dc4dbba0a6232f8912df0dade39f04e4ff2166608f10a"}}
+[debug] [2022-05-27T07:08:05.371Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles 200
+[debug] [2022-05-27T07:08:05.371Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/tesla-clone-70677/versions/5befb10f44f55e23/files"}
+[debug] [2022-05-27T07:08:05.372Z] [hosting][populate queue][FINAL] {"max":2647,"min":2647,"avg":2647,"active":0,"complete":1,"success":1,"errored":0,"retried":1,"total":1,"elapsed":135200}
+[debug] [2022-05-27T07:08:05.372Z] [hosting] uploads queued: 0
+[debug] [2022-05-27T07:08:05.372Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1653635285372}
+[info] ✔  hosting[tesla-clone-70677]: file upload complete 
+[debug] [2022-05-27T07:08:05.373Z] [hosting] deploy completed after 135227ms
+[debug] [2022-05-27T07:08:05.375Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "tesla-clone-70677"
+    },
+    "site": "tesla-clone-70677",
+    "version": "sites/tesla-clone-70677/versions/5befb10f44f55e23"
+  }
+]
+[info] i  hosting[tesla-clone-70677]: finalizing version... 
+[debug] [2022-05-27T07:08:05.376Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-27T07:08:05.376Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:08:05.975Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 27 May 2022 07:08:06 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:08:05.988Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/versions/5befb10f44f55e23?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2022-05-27T07:08:08.362Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 27 May 2022 07:08:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:08:08.362Z] [hosting] finalized version for tesla-clone-70677: {"name":"sites/tesla-clone-70677/versions/5befb10f44f55e23","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-05-27T07:05:49.877250Z","createUser":{"email":"naradomkar2120@gmail.com"},"finalizeTime":"2022-05-27T07:08:07.851501Z","finalizeUser":{"email":"naradomkar2120@gmail.com"}}
+[info] ✔  hosting[tesla-clone-70677]: version finalized 
+[info] i  hosting[tesla-clone-70677]: releasing new version... 
+[debug] [2022-05-27T07:08:08.364Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tesla-clone-70677/releases?version_name=sites/tesla-clone-70677/versions/5befb10f44f55e23  
+ {"message":null}
+[debug] [2022-05-27T07:10:20.226Z] Error: connect ETIMEDOUT 142.250.66.10:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 142.250.66.10:443
+[debug] [2022-05-27T07:10:26.735Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T07:10:26.736Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2022-05-27T07:10:26.737Z] CLI Version:   10.1.2
+[debug] [2022-05-27T07:10:26.737Z] Platform:      linux
+[debug] [2022-05-27T07:10:26.737Z] Node Version:  v14.19.3
+[debug] [2022-05-27T07:10:26.737Z] Time:          Fri May 27 2022 12:40:26 GMT+0530 (India Standard Time)
+[debug] [2022-05-27T07:10:26.737Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T07:10:26.787Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T07:10:26.787Z] > authorizing via signed-in user (naradomkar2120@gmail.com)
+[debug] [2022-05-27T07:10:26.787Z] [iam] checking project tesla-clone-70677 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-27T07:10:26.788Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tesla-clone-70677:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-27T07:10:29.308Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 27 May 2022 07:10:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1332","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:10:29.313Z] > refreshing access token with scopes: []
+[debug] [2022-05-27T07:10:29.314Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-27T07:10:29.814Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Fri, 27 May 2022 07:10:29 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-27T07:10:29.832Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tesla-clone-70677 [none]
+[debug] [2022-05-27T07:10:52.875Z] ----------------------------------------------------------------------
+[debug] [2022-05-27T07:10:52.876Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2022-05-27T07:10:52.876Z] CLI Version:   10.1.2
+[debug] [2022-05-27T07:10:52.877Z] Platform:      linux
+[debug] [2022-05-27T07:10:52.877Z] Node Version:  v14.19.3
+[debug] [2022-05-27T07:10:52.877Z] Time:          Fri May 27 2022 12:40:52 GMT+0530 (India Standard Time)
+[debug] [2022-05-27T07:10:52.877Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-27T07:10:52.927Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-27T07:10:52.927Z] > authorizing via signed-in user (naradomkar2120@gmail.com)
+[debug] [2022-05-27T07:10:52.927Z] [iam] checking project tesla-clone-70677 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-27T07:10:52.929Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-27T07:10:52.930Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
